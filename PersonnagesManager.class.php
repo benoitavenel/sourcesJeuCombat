@@ -6,7 +6,6 @@ class PersonnagesManager
     public function __construct($db)
     {
         $this->db = $db;
-        //adding test comment
     }
 
     public function add(Personnage $perso)
